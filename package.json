@@ -1,0 +1,24 @@
+{
+  "name": "coffee-react-zuul-webpack-phantomjs",
+  "private": "true",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coffee-jsx-loader": "^0.1.2",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.3",
+    "ibrik-instrumenter-loader": "^0.1.1",
+    "node-libs-browser": "^0.5.2",
+    "phantomjs": "^1.9.17",
+    "polyfill-function-prototype-bind": "0.0.1",
+    "react": "^0.13.3",
+    "rewire": "^2.3.4",
+    "rewire-webpack": "^1.0.0",
+    "sinon": "^1.15.4",
+    "webpack": "^1.10.1",
+    "zuul": "^3.2.0",
+    "zuul-builder-webpack": "^1.1.0"
+  },
+  "scripts": {
+    "test": "zuul test/index.js"
+  }
+}
