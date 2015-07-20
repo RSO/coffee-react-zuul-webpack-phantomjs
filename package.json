@@ -17,6 +17,7 @@
     "zuul-builder-webpack": "^1.1.0"
   },
   "scripts": {
-    "test": "zuul test/index.js"
+    "test": "zuul test/index.js",
+    "test-chrome": "zuul --local --open test/index.js"
   }
 }
